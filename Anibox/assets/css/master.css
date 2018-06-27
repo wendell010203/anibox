@@ -1,0 +1,214 @@
+body {
+  margin: 0px;
+  padding: 0px;
+    padding-bottom: 1500px;
+  overflow-y: scroll;
+  font-family: Arial;
+  font-size: 14px;
+  background: #fab818;
+    background-repeat: repeat-y;
+    background-image: url("../img/body/left.png"), url("../img/body/right.png");
+    background-position: left, right; }
+
+.index-header {
+  margin: 0 auto;
+  display: block;
+  width: 450px;
+  margin-top: 20px; }
+.index-centerholder {
+  width: 745px;
+  margin: 0 auto; }
+  .index-centerholder form {
+    float: left;
+    width: 250px;
+    margin: 0px 7.5px 0px 13.5px;
+      margin-top: 50px; }
+    .index-centerholder form input {
+      font-size: 14px;
+      padding: 5px;
+      width: 236px; }
+    .index-centerholder form input[type="text"], .index-centerholder form input[type="password"] {
+      margin-bottom: 5px; }
+    .index-centerholder form input[type="submit"] {
+      background: none;
+      font-size: 14px;
+      font-weight: bold;
+      width: 250px;
+      color: #a6001a;
+      border: none;
+      cursor: pointer; }
+      .index-centerholder form input[type="submit"]:hover {
+        color: #e06000; }
+    .index-centerholder form p {
+      text-align: center; }
+    .index-centerholder form a {
+      text-decoration: none;
+      color: #00477e; }
+      .index-centerholder form a:hover {
+        text-decoration: underline; }
+.index-leftboy {
+  float: left;
+  width: 236px;
+  margin-top: -90px; }
+.index-rightgirl {
+  float: left;
+  width: 236px;
+  margin-top: -80px; }
+.index-footer {
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+  margin-top: 0px;
+  padding: 10px;
+  background: white;
+  border: 0px solid #777;
+    border-radius: 4px;
+  transform: rotate(-2deg) translate(0px, -70px);
+  box-shadow: 0px 0px 10px 1px #333; }
+
+.home-navContainer {
+  width: 745px;
+  background: #e06000;
+  margin: 0 auto;
+    margin-top: 10px;
+  display: block;
+  border: 0px solid #777;
+    border-radius: 4px;
+  box-shadow: 0px 0px 7px 1px #333;
+  padding-bottom: 20px; }
+  .home-navContainer:first-of-type {
+    margin-top: 20px; }
+  .home-navContainer a {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #fab818;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px 10px;
+    border: 0px solid #777;
+      border-radius: 2px;
+    box-shadow: 0px 0px 7px 1px #333; }
+    .home-navContainer a:hover {
+      background: #fab818;
+      color: #e06000; }
+.home-navbg {
+  width: 745px;
+  height: 130px;
+  background: #e06000;
+  margin: 0 auto;
+  display: block;
+  border: 0px solid #777;
+    border-radius: 4px;
+  transform: rotate(-1deg) translate(0px, 10px);
+  box-shadow: 0px 0px 10px 1px #333; }
+.home-navContainer2 {
+  width: 745px;
+  background: #00477e;
+  margin: 0 auto;
+    margin-top: 10px;
+  display: block;
+  border: 0px solid #777;
+    border-radius: 4px;
+  box-shadow: 0px 0px 7px 1px #333;
+  padding-bottom: 20px; }
+  .home-navContainer2 a {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #a6001a;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px 10px;
+    border: 0px solid #777;
+      border-radius: 2px;
+    box-shadow: 0px 0px 7px 1px #333; }
+    .home-navContainer2 a:hover {
+      color: #fab818; }
+.home-navbg2 {
+  width: 745px;
+  height: 130px;
+  background: #e06000;
+  margin: 0 auto;
+  display: block;
+  border: 0px solid #777;
+    border-radius: 4px;
+  transform: rotate(1deg) translate(0px, 10px);
+  box-shadow: 0px 0px 10px 1px #333; }
+.home-profile {
+  width: 273px;
+  float: left;
+  margin-top: 10px;
+  text-align: center; }
+  .home-profile a {
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block; }
+    .home-profile a:hover {
+      text-decoration: underline; }
+  .home-profile div:nth-of-type(1) {
+    color: #e06000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px; }
+  .home-profile div:nth-of-type(2) {
+    color: #333; }
+    .home-profile div:nth-of-type(2) span {
+      color: white; }
+.home-profilePic {
+  width: 168px;
+  margin-top: 0px;
+  border: 1px solid #a6001a;
+    border-radius: 50%;
+  box-shadow: 0px 0px 10px 1px #333;
+  background: #a6001a; }
+.home-footer {
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+  padding: 10px;
+  background: white;
+  border: 0px solid #777;
+    border-radius: 4px;
+  transform: rotate(-2deg) translate(0px, -50px);
+  box-shadow: 0px 0px 10px 1px #333; }
+
+.animelist-profile {
+  width: 273px;
+  float: left;
+  margin-top: 10px;
+  text-align: center; }
+  .animelist-profile div:nth-of-type(2) {
+    color: #333;
+    font-size: 16px; }
+.animelist-title {
+  color: #e06000;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 5px; }
+.animelist-footer {
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+  padding: 10px;
+  background: white;
+  border: 0px solid #777;
+    border-radius: 4px;
+  transform: rotate(-2deg) translate(0px, 20px);
+  box-shadow: 0px 0px 10px 1px #333; }
+
+.clearfix:before {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+/*# sourceMappingURL=master.css.map */
